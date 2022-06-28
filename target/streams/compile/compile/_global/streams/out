@@ -1,0 +1,22 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/scored-cards/src/main/scala/com/tauro/scoredcards/Cards.scala:30:13: could not find implicit value for parameter F: cats.MonadThrow[F] (Could not find an instance of Monad for F)[0m
+[0m[[0m[31merror[0m] [0m[0m      req.as[Card][0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/scored-cards/src/main/scala/com/tauro/scoredcards/Cards.scala:9:33: Unused import[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.EntityDecoder._[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/scored-cards/src/main/scala/com/tauro/scoredcards/Cards.scala:29:9: private method get in <$anon: com.tauro.scoredcards.HelloWorld[F]> is never used[0m
+[0m[[0m[31merror[0m] [0m[0m    def get(req: Request[F]): F[Cards.Card] = {[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/scored-cards/src/main/scala/com/tauro/scoredcards/Cards.scala:28:7: parameter value evidence$2 in method impl is never used[0m
+[0m[[0m[31merror[0m] [0m[0m  def impl[F[_]: Applicative]: HelloWorld[F] = new HelloWorld[F]{[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/scored-cards/src/main/scala/com/tauro/scoredcards/ScoredcardsRoutes.scala:5:25: Unused import[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.circe.jsonOf[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/scored-cards/src/main/scala/com/tauro/scoredcards/ScoredcardsRoutes.scala:6:20: Unused import[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.http4s.{EntityDecoder, HttpRoutes}[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/amitrovantauro/Documents/scored-cards/src/main/scala/com/tauro/scoredcards/ScoredcardsRoutes.scala:8:30: Unused import[0m
+[0m[[0m[31merror[0m] [0m[0mimport io.circe.generic.auto._[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
